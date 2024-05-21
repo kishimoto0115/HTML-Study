@@ -15,7 +15,15 @@ body {
   height: fit-content;
 }
 
+.container1 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(105, 255, 105);
+}
 .container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header_logo {
@@ -52,6 +60,57 @@ a:link {
 .text {
   white-space: pre-wrap;
 }
+.item {
+  background-color: rgb(28, 44, 90);
+  width: 15%;
+  margin: 1%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.itembox {
+  display: flex;
+  justify-content: center;
+}
+.itembox img {
+  width: 80%;
+}
+.member-text {
+  color: aliceblue;
+  font-size: 20px;
+}
+.GAMETITLE {
+  color: rgb(60, 255, 0);
+  background-color: #1f2a41;
+}
+.container3 {
+  background-color: #1f2a41;
+  display: flex;
+}
+.container4 {
+  background-color: #1f2a41;
+  display: flex;
+}
+.gamebox {
+  background-color: pink;
+  width: 20%;
+  margin: 1%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.game-text {
+  color: black;
+}
+.gamebox img {
+  width: 80%;
+}
+.logo_image
 /* リンク文字 */
 
 .header_menu_item a {
